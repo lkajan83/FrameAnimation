@@ -28,6 +28,22 @@ namespace FrameAnimation
 		{
 		}
 		
+		public partial class Animation
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int animate_android = 2130968576;
+			
+			static Animation()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Animation()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -47,12 +63,49 @@ namespace FrameAnimation
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int im1 = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int im2 = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int im3 = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int im4 = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int im5 = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int im6 = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int im7 = 2130837511;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int animated_android = 2131099648;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
@@ -76,11 +129,11 @@ namespace FrameAnimation
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
 			
 			static String()
 			{
